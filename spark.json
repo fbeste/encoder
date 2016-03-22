@@ -2,6 +2,6 @@
   "name": "Encoder",
   "author": "Paul Stoffregen <paul@pjrc.com>",
   "license": "none",
-  "version": "1.2",
+  "version": "1.2.0",
   "description": "encoder Libaray, see http://www.pjrc.com/teensy/td_libs_Encoder.html"
 }
