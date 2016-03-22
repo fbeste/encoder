@@ -33,6 +33,7 @@
 #include "Arduino.h"
 #elif defined(WIRING)
 #include "Wiring.h"
+#elif defined(SPARK)
 #else
 #include "WProgram.h"
 #include "pins_arduino.h"
