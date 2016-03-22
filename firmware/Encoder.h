@@ -33,10 +33,11 @@
 #include "Arduino.h"
 #elif defined(WIRING)
 #include "Wiring.h"
-#elif defined(SPARK)
 #else
+#ifndef SPARK
 #include "WProgram.h"
 #include "pins_arduino.h"
+#endif
 #endif
 
 #include "utility/direct_pin_read.h"
